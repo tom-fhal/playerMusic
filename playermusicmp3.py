@@ -1,6 +1,7 @@
 from tkinter import *
 import tkinter as tk
 from tkmacosx import Button
+#essentiel pour l'import de couleur de fond d'écran de bouton sur mac 
 import pygame
 from tkinter.filedialog import askdirectory
 from tkinter import filedialog
@@ -8,7 +9,6 @@ import os
 from pygame import mixer
 import tkinter as tkr
 from tkinter.filedialog import askopenfilename
-from PIL import Image
 #création de la fenêtre du player music
 fenetreplayer = tk.Tk()
 fenetreplayer.title('Playerlaplateforme')
